@@ -1,0 +1,252 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>iPhone Store</title>
+    <link rel="icon" href="/img/appleblack.png" type="image/png">
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <img src="/img/apple.png" alt="" style=" height: 160px; width: 160px; margin-top: 2px; margin-bottom: -45px">
+
+            </div>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="searchInput">
+                    <img src="./img/search.png" width="20" height="20" alt="" class="searchIcon">
+                </div>
+            </div>
+            <div class="navItem">
+                <span class="limitedOffer">Limited Offer!</span>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">iPhone 15</h3>
+            <h3 class="menuItem">iPhone 15 Pro</h3>
+            <h3 class="menuItem">iPhone 15 Pro Max</h3>
+            <h3 class="menuItem">iPhone 15 Plus</h3>
+            
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="./img/air.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">iPhone 15</br> NEW</br> ARRIVALS</h1>
+                <h2 class="sliderPrice">₹ 72,200</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/jordan.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">iPhone 15 Pro</br> NEW</br> ARRIVALS</h1>
+                <h2 class="sliderPrice">₹ 137990</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/blazer.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">iPhone 15 Pro Max</br> NEW</br> ARRIVALS</h1>
+                <h2 class="sliderPrice">₹ 156990</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/crater.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">iPhone 15 Plus</br> NEW</br> ARRIVALS</h1>
+                <h2 class="sliderPrice">₹ 81,600</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            
+        </div>
+    </div>
+   
+    <div class="features">
+        <div class="feature">
+            <img src="/img/free-delivery.png" alt="" class="featureIcon">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDesc">Free worldwide shipping on all orders.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="/img/exchange.png" alt="">
+            <span class="featureTitle">30 DAYS RETURN</span>
+            <span class="featureDesc">No question return and easy refund in 14 days.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="/img/gift-card.png" alt="">
+            <span class="featureTitle">GIFT CARDS</span>
+            <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="/img/contact-mail.png" alt="">
+            <span class="featureTitle">CONTACT US!</span>
+            <span class="featureDesc">Keep in touch via email and support system.</span>
+        </div>
+    </div>
+
+    <div class="product" id="product">
+        <img src="./img/iphoneall.jpeg" alt="" class="productImg">
+
+        <div class="productDetails">
+            <h1 class="productTitle"></h1>
+            <h2 class="productPrice"></h2>
+            
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                
+            </div>
+            
+            <div class="sizes">
+                <div class="size">128 GB</div>
+                <div class="size">256 GB</div>
+                <div class="size">1 TB  </div>
+            </div>
+            <button class="productButton">BUY NOW!</button>
+        </div>
+        <div class="payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <label>Name and Surname</label>
+            <input type="text" placeholder="Full Name" class="payInput">
+            <label>Phone Number</label>
+            <input type="text" placeholder="+91 012 3456 789 " class="payInput">
+            <label>Address</label>
+            <input type="text" placeholder="Address" class="payInput">
+            <h1 class="payTitle">Card Information</h1>
+            <div class="cardIcons">
+                <img src="./img/visa.png" width="40" alt="" class="cardIcon">
+                <img src="./img/mastercard.png" alt="" width="40" class="cardIcon">
+            </div>
+            <input type="password" class="payInput" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="text" placeholder="cvv" class="payInput sm">
+            </div>
+            <button class="payButton">Checkout!</button>
+            <span class="close">X</span>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Unleash your potential with cutting-edge technology!</h1>
+            <a href="https://www.apple.com/in/shop/buy-iphone/iphone-13" target="_blank" class="hoverLink">
+                <img src="/img/img1.jpeg" alt="" class="galleryImg">
+            </a>
+        </div>
+        <div class="galleryItem">
+            <a href="https://www.apple.com/in/shop/buy-iphone/iphone-15" target="_blank" class="hoverLink">
+                <img src="/img/img5.jpg" alt="" class="galleryImg">
+            </a>
+            <h1 class="galleryTitle">Embrace innovation, redefine your limits!</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Upgrade your world, upgrade your devices.</h1>
+            <a href="https://www.apple.com/in/shop/buy-iphone/iphone-14" target="_blank" class="hoverLink">
+                <img src="/img/img2.webp" alt="" class="galleryImg">
+            </a>
+        </div>
+    </div>
+    <div class="newSeason">
+        <div class="nsItem">
+            <video autoplay muted loop class="nsImg">
+                <source src="/vid/iphone-15-titanium.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+        </div>
+        <div class="nsItem">
+            <h2 class="nsTitleSm"> NEW ARRIVALS</h2>
+            <h1 class="nsTitle">New Technology</h1>
+            <h1 class="nsTitle">New Collection</h1>
+            <a href="#nav">
+                <button class="nsButton">CHOOSE YOUR STYLE</button>
+            </a>
+        </div>
+        <div class="nsItem">
+            <video autoplay muted loop class="nsImg">
+                <source src="/vid/apple-apple-iphone.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+        </div>
+    </div>
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">About Us</h1>
+                <ul class="fList">
+                    <li class="fListItem"><a href="https://www.apple.com/in/" target="_blank">Company</a></li>
+                    <li class="fListItem"><a href="https://support.apple.com/en-lamr/contact" target="_blank">Contact</a></li>
+                    <li class="fListItem"><a href="https://www.apple.com/careers/in/" target="_blank">Careers</a></li>
+                    <li class="fListItem"><a href="https://www.apple.com/in/working-with-apple-services/" target="_blank">Affiliates</a></li>
+                    <li class="fListItem"><a href="https://www.apple.com/in/store?afid=p238%7Csfo291LJq-dc_mtid_187079nc38483_pcrid_694334137404_pgrid_109516736059_pntwk_g_pchan__pexid__&cid=aos-IN-kwgo-brand--slid---product-" target="_blank">Stores</a></li>
+                </ul>
+                
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Useful Links</h1>
+                <ul class="fList">
+                    <li class="fListItem"><a href="https://support.apple.com/en-in?cid=gn-ols-home-hp-tab" target="_blank">Support</a></li>
+                    <li class="fListItem"><a href="https://www.apple.com/in/shop/help/returns_refund" target="_blank">Refund</a></li>
+                    <li class="fListItem"><a href="https://www.apple.com/shop/help/questions_and_answers" target="_blank">FAQ</a></li>
+                    <li class="fListItem"><a href="https://www.apple.com/feedback/" target="_blank">Feedback</a></li>
+                    <li class="fListItem"><a href="https://www.apple.com/in/business/enterprise/success-stories/retail/" target="_blank">Stories</a></li>
+                </ul>
+                
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Products</h1>
+                <ul class="fList">
+                    <li class="fListItem"><a href="https://www.apple.com/in/shop/buy-iphone/iphone-15" target="_blank">iPhone 15</a></li>
+                    <li class="fListItem"><a href="https://www.apple.com/in/iphone-15-pro/" target="_blank">iPhone 15 Pro</a></li>
+                    <li class="fListItem"><a href="https://www.apple.com/in/shop/buy-iphone/iphone-15-pro?afid=p238%7CsL6SoPjjD-dc_mtid_209254ho67063_pcrid_673895663172_pgrid_158666585972_pexid__&cid=wwa-in-kwgo-iphone-slid----General-" target="_blank">iPhone 15 Pro Max</a></li>
+                    <li class="fListItem"><a href="https://www.apple.com/in/iphone-15/" target="_blank">iPhone 15 Plus</a></li>
+                </ul>
+                
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="your@email.com" class="fInput">
+                    <button class="fButton">Join!</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Follow Us</h1>
+                <div class="fIcons">
+                    <a href="https://www.youtube.com/@developersagnik"><img src="./img/youtube.png" alt="" class="fIcon"></a>
+                    <a href="https://twitter.com/tomadersagnik"><img src="./img/twitter.png" alt="" class="fIcon"></a>
+                    <a href="https://www.instagram.com/sagnik.ai/"><img src="./img/instagram.png" alt="" class="fIcon"></a>
+                    <a href="https://www.linkedin.com/in/saagniik"><img src="./img/linkedin.png" alt="" class="fIcon"></a>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">@Sagnik Dey. All rights reserved. 2022.</span>
+            </div>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>
